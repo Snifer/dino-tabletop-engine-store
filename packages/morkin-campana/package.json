@@ -1,0 +1,34 @@
+{
+  "id": "morkin-campana",
+  "type": "campaign",
+  "name": "Morkin",
+  "version": "0.0.1",
+  "author": "Snifer - Bastión del Dinosaurio",
+  "license": "CC-BY-4.0",
+  "description": "Configuración completa de toda la campana de Morkin bestiario completo",
+  "tags": [
+    "campana",
+    "aventura",
+    "rol"
+  ],
+  "language": "es",
+  "dteMinVersion": "0.1.11",
+  "requiresModules": [
+    "combat",
+    "character-sheet",
+    "persistent-characters",
+    "random-tables",
+    "oracles"
+  ],
+  "requiresPlugins": [
+    "obsidian-dice-roller",
+    "obsidian-5e-statblocks",
+    "lonelog"
+  ],
+  "file": "morkin-campana.dinovtt",
+  "preview": "preview.png",
+  "readme": "README.md",
+  "size": 11129324,
+  "sha256": "ad0c88499a56fcfca7d6de47c7024e2d9cadbd122769989772103a8fe92c7f46",
+  "purchaseUrl": null
+}

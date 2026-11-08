@@ -67,6 +67,8 @@ This repository powers the in-app community store client. Packages are hosted as
 7. Submit a **Pull Request** targeting the `main` branch.
 8. The CI pipeline will automatically validate the manifest, calculate the SHA-256 integrity hash, and compile `catalog.json` upon merge.
 
+> 💡 **Don't want to use GitHub?** You can also submit your exported package directly through our [Community Submission Form](https://forms.gle/QafjhDjpHxTYrahw8), and we'll review and publish it for you.
+
 ### 🛡️ Security & Content Guidelines
 
 - **Passive Data Only:** Only `.dinovtt` containers (ZIP archives enclosing Markdown notes, JSON configurations, and standard images) are allowed. Executable code (`.js`, `.wasm`, `.sh`, `.exe`) is strictly prohibited and will be rejected.
@@ -138,6 +140,8 @@ Este repositorio alimenta la tienda comunitaria integrada en el plugin. Los paqu
 6. *(Opcional pero recomendado)* Sumá un archivo `preview.png` (imagen de portada) y un `README.md` (guía para el director de juego o notas de ambientación).
 7. Abrí un **Pull Request** hacia la rama `main`.
 8. El flujo de GitHub Actions validará el manifiesto, computará el hash criptográfico SHA-256 e integrará el paquete en `catalog.json` al aprobarse el PR.
+
+> 💡 **¿No usás GitHub?** También podés enviar tu paquete directamente a través de nuestro [Formulario de Envío a la Comunidad](https://forms.gle/QafjhDjpHxTYrahw8), y nosotros nos encargamos de revisarlo e indexarlo en la tienda.
 
 ### 🛡️ Reglas y Seguridad
 
