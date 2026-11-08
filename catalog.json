@@ -2,7 +2,7 @@
   "schema": 1,
   "name": "Dino Tabletop Engine Store",
   "description": "Official package catalog for Dino Tabletop Engine.",
-  "updatedAt": "2026-11-07T22:08:42.111Z",
+  "updatedAt": "2026-11-08T01:54:44.899Z",
   "totalPackages": 1,
   "packages": [
     {
@@ -32,7 +32,7 @@
       "previewUrl": "packages/aventura-ejemplo/preview.png",
       "readmeUrl": "packages/aventura-ejemplo/README.md",
       "purchaseUrl": null,
-      "updatedAt": "2026-11-07T22:08:42.108Z"
+      "updatedAt": "2026-11-08T01:54:44.898Z"
     }
   ]
 }
