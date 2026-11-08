@@ -2,8 +2,8 @@
   "schema": 1,
   "name": "Dino Tabletop Engine Store",
   "description": "Official package catalog for Dino Tabletop Engine.",
-  "updatedAt": "2026-11-08T02:17:07.594Z",
-  "totalPackages": 1,
+  "updatedAt": "2026-11-08T06:39:56.931Z",
+  "totalPackages": 2,
   "packages": [
     {
       "id": "hoja-de-personaje-morkin",
@@ -23,6 +23,7 @@
       "requiresModules": [
         "character-sheet"
       ],
+      "requiresPlugins": [],
       "size": 1881,
       "sha256": "e008382d655a93207d2c17c496e82ad088834defcb2032c65f55dfad9519fa3a",
       "downloadUrl": "packages/hoja-de-personaje-morkin/hoja-de-personaje-morkin.dinovtt",
@@ -30,7 +31,43 @@
       "previewUrl": "packages/hoja-de-personaje-morkin/preview.png",
       "readmeUrl": "packages/hoja-de-personaje-morkin/README.md",
       "purchaseUrl": null,
-      "updatedAt": "2026-11-08T02:17:07.594Z"
+      "updatedAt": "2026-11-08T06:39:56.907Z"
+    },
+    {
+      "id": "morkin-campana",
+      "name": "Morkin",
+      "type": "campaign",
+      "version": "0.0.1",
+      "author": "Snifer - Bastión del Dinosaurio",
+      "license": "CC-BY-4.0",
+      "description": "Configuración completa de toda la campana de Morkin bestiario completo",
+      "tags": [
+        "campana",
+        "aventura",
+        "rol"
+      ],
+      "language": "es",
+      "dteMinVersion": "0.1.11",
+      "requiresModules": [
+        "combat",
+        "character-sheet",
+        "persistent-characters",
+        "random-tables",
+        "oracles"
+      ],
+      "requiresPlugins": [
+        "obsidian-dice-roller",
+        "obsidian-5e-statblocks",
+        "lonelog"
+      ],
+      "size": 11129324,
+      "sha256": "ad0c88499a56fcfca7d6de47c7024e2d9cadbd122769989772103a8fe92c7f46",
+      "downloadUrl": "packages/morkin-campana/morkin-campana.dinovtt",
+      "manifestUrl": "packages/morkin-campana/package.json",
+      "previewUrl": "packages/morkin-campana/preview.png",
+      "readmeUrl": "packages/morkin-campana/README.md",
+      "purchaseUrl": null,
+      "updatedAt": "2026-11-08T06:39:56.923Z"
     }
   ]
 }
