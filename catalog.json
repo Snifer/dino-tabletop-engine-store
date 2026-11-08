@@ -2,37 +2,35 @@
   "schema": 1,
   "name": "Dino Tabletop Engine Store",
   "description": "Official package catalog for Dino Tabletop Engine.",
-  "updatedAt": "2026-11-08T01:54:44.899Z",
+  "updatedAt": "2026-11-08T02:14:02.902Z",
   "totalPackages": 1,
   "packages": [
     {
-      "id": "aventura-ejemplo",
-      "name": "La Cripta del Nigromante",
-      "type": "campaign",
-      "version": "1.0.0",
-      "author": "Snifer",
+      "id": "hoja-de-personaje-morkin",
+      "name": "Morkin",
+      "type": "sheet",
+      "version": "0.0.1",
+      "author": "Snifer - Bastión del Dinosaurio",
       "license": "CC-BY-4.0",
-      "description": "Una aventura introductoria con mapas tácticos, tablas aleatorias y criaturas preconfiguradas.",
+      "description": "Hoja de personaje para el juego de rol Morkin",
       "tags": [
-        "fantasia",
-        "introductoria",
-        "mazmorra"
+        "ficha",
+        "personaje",
+        "plantilla"
       ],
       "language": "es",
       "dteMinVersion": "0.1.11",
       "requiresModules": [
-        "combat",
-        "randomTables",
-        "diceTray"
+        "character-sheet"
       ],
-      "size": 543,
-      "sha256": "ba04ab38c15b359e4aeb943bcec7efd529209716c897c97cb36517f212f9ff7b",
-      "downloadUrl": "packages/aventura-ejemplo/aventura-ejemplo.dinovtt",
-      "manifestUrl": "packages/aventura-ejemplo/package.json",
-      "previewUrl": "packages/aventura-ejemplo/preview.png",
-      "readmeUrl": "packages/aventura-ejemplo/README.md",
+      "size": 1881,
+      "sha256": "e008382d655a93207d2c17c496e82ad088834defcb2032c65f55dfad9519fa3a",
+      "downloadUrl": "packages/hoja-de-personaje-morkin/hoja-de-personaje-morkin.dinovtt",
+      "manifestUrl": "packages/hoja-de-personaje-morkin/package.json",
+      "previewUrl": "packages/hoja-de-personaje-morkin/preview.png",
+      "readmeUrl": "packages/hoja-de-personaje-morkin/README.md",
       "purchaseUrl": null,
-      "updatedAt": "2026-11-08T01:54:44.898Z"
+      "updatedAt": "2026-11-08T02:14:02.898Z"
     }
   ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "hoja-de-personaje-morkin",
+  "type": "sheet",
+  "name": "Morkin",
+  "version": "0.0.1",
+  "author": "Snifer - Bastión del Dinosaurio",
+  "license": "CC-BY-4.0",
+  "description": "Hoja de personaje para el juego de rol Morkin",
+  "tags": [
+    "ficha",
+    "personaje",
+    "plantilla"
+  ],
+  "language": "es",
+  "dteMinVersion": "0.1.11",
+  "requiresModules": [
+    "character-sheet"
+  ],
+  "file": "hoja-de-personaje-morkin.dinovtt",
+  "preview": "preview.png",
+  "readme": "README.md",
+  "size": 1881,
+  "sha256": "e008382d655a93207d2c17c496e82ad088834defcb2032c65f55dfad9519fa3a",
+  "purchaseUrl": null
+}
