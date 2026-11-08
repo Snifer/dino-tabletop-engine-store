@@ -2,7 +2,7 @@
   "schema": 1,
   "name": "Dino Tabletop Engine Store",
   "description": "Official package catalog for Dino Tabletop Engine.",
-  "updatedAt": "2026-11-08T02:14:02.902Z",
+  "updatedAt": "2026-11-08T02:17:07.594Z",
   "totalPackages": 1,
   "packages": [
     {
@@ -30,7 +30,7 @@
       "previewUrl": "packages/hoja-de-personaje-morkin/preview.png",
       "readmeUrl": "packages/hoja-de-personaje-morkin/README.md",
       "purchaseUrl": null,
-      "updatedAt": "2026-11-08T02:14:02.898Z"
+      "updatedAt": "2026-11-08T02:17:07.594Z"
     }
   ]
 }
