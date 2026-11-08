@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "name": "Dino Tabletop Engine Store",
+  "description": "Official package catalog for Dino Tabletop Engine.",
+  "updatedAt": "2026-11-07T22:08:42.111Z",
+  "totalPackages": 1,
+  "packages": [
+    {
+      "id": "aventura-ejemplo",
+      "name": "La Cripta del Nigromante",
+      "type": "campaign",
+      "version": "1.0.0",
+      "author": "Snifer",
+      "license": "CC-BY-4.0",
+      "description": "Una aventura introductoria con mapas tácticos, tablas aleatorias y criaturas preconfiguradas.",
+      "tags": [
+        "fantasia",
+        "introductoria",
+        "mazmorra"
+      ],
+      "language": "es",
+      "dteMinVersion": "0.1.11",
+      "requiresModules": [
+        "combat",
+        "randomTables",
+        "diceTray"
+      ],
+      "size": 543,
+      "sha256": "ba04ab38c15b359e4aeb943bcec7efd529209716c897c97cb36517f212f9ff7b",
+      "downloadUrl": "packages/aventura-ejemplo/aventura-ejemplo.dinovtt",
+      "manifestUrl": "packages/aventura-ejemplo/package.json",
+      "previewUrl": "packages/aventura-ejemplo/preview.png",
+      "readmeUrl": "packages/aventura-ejemplo/README.md",
+      "purchaseUrl": null,
+      "updatedAt": "2026-11-07T22:08:42.108Z"
+    }
+  ]
+}

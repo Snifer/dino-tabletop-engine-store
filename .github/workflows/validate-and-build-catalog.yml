@@ -1,0 +1,50 @@
+name: Validate and Build Store Catalog
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'packages/**'
+      - 'scripts/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'packages/**'
+      - 'scripts/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Run catalog builder
+        env:
+          CI: 'true'
+        run: |
+          node scripts/build-catalog.mjs
+
+      - name: Auto-commit catalog.json on main
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add catalog.json packages/*/package.json
+          if git diff --staged --quiet; then
+            echo "No changes detected in catalog."
+          else
+            git commit -m "chore(store): update catalog.json and checksums [skip ci]"
+            git push
+          fi
